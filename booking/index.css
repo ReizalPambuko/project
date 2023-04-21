@@ -1,0 +1,592 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./image/bg-page-bookinghub\ 1.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Navbar */
+.menus {
+  margin-left: -6rem;
+}
+.flexs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav1 {
+  margin-left: 166.75px;
+}
+
+.nav2 {
+  margin-right: 166.75px;
+}
+
+.dropdown i {
+  font-size: 1.9rem;
+}
+
+button {
+  border: none;
+}
+/* Navbar */
+
+/*hiro */
+
+.hiro {
+  margin-top: -21px;
+  background-image: url(./image/bg-1.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 461px;
+}
+
+.hiro-text {
+  position: absolute;
+  width: 470px;
+  height: 64px;
+  left: 120px;
+  top: 239px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 91.5%;
+  color: white;
+}
+
+.hiro-text2 {
+  color: white;
+  position: absolute;
+  right: 100px;
+  top: 300px;
+  /* Heading 2 */
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 120%;
+}
+
+.mini-content h3 {
+  font-weight: bold;
+}
+.mini-btn {
+  height: 41px;
+  width: 136px;
+  background-image: url(./image/Buttons.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-top: 52px;
+  transition: all 0.3s;
+  background-color: transparent;
+}
+
+/* Event */
+
+.event-form {
+  padding: 54px 59px;
+}
+
+.ev-bg {
+  background: #1e1e1e;
+  width: 1200px;
+  height: 868px;
+}
+
+.event-date {
+  height: 868px;
+  width: 340px;
+  border-radius: 0px;
+  margin-right: 60px;
+}
+
+.dt {
+  width: 50%;
+}
+
+.event-date h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.event-date p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.event-date h4 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.boking {
+  width: 215px;
+  height: 44px;
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  margin-top: 150px;
+}
+
+.pay {
+  width: 215px;
+  height: 44px;
+  background: #eb0e09;
+  color: white;
+  margin-top: 36px;
+  border: none;
+}
+
+.booking-form {
+  width: 100%;
+}
+.booking-form input {
+  padding: 1rem;
+  width: 312px;
+  height: 44px;
+  border: none;
+  outline: none;
+  border: 1px solid #ffffff;
+  background: transparent;
+  margin-right: 58px;
+}
+
+.booking-form h5 {
+  margin-bottom: 16px;
+}
+
+form p {
+  margin-top: 11px;
+  margin-bottom: 20px;
+}
+
+input {
+  color: #fff;
+}
+.phone-input {
+  width: 100%;
+  margin-top: 28px;
+}
+
+.phone-input input {
+  padding: 1rem;
+  width: 312px;
+  height: 44px;
+  border: none;
+  outline: none;
+  border: 1px solid #ffffff;
+  background: transparent;
+}
+
+.num-input {
+  width: 100%;
+  margin-top: 28px;
+}
+
+.num-input input {
+  margin-right: 221px;
+  height: 44px;
+  width: 149px;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  background: transparent;
+}
+
+.evName {
+  margin-bottom: 16px;
+}
+
+form h5 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.form-select {
+  color: white;
+  border: none;
+  border: 1px solid #fff;
+  border-radius: 0;
+  background: transparent;
+}
+
+.form-select option {
+  color: #000;
+}
+
+.emails {
+  width: 100%;
+  width: 682px;
+  height: 44px;
+  border: 1px solid #fff;
+  background: transparent;
+  padding: 10px;
+}
+
+/* Vip */
+
+.contents h3 {
+  font-weight: bold;
+}
+
+.all-link a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s;
+}
+
+.all-link a:hover {
+  background: #eb0e09;
+}
+
+i {
+  font-size: 1.3rem;
+  padding: 0.6rem;
+  border-radius: 40px;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  margin: 0 2px;
+  display: inline-block;
+}
+
+.fb {
+  background: #0358bb;
+  box-shadow: inset -3px -2px 10px rgba(255, 255, 255, 0.5),
+    inset 2px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.tw {
+  background: #0ca4d3;
+  box-shadow: inset -3px -2px 10px rgba(255, 255, 255, 0.5),
+    inset 2px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.yt {
+  background: #b61414;
+  box-shadow: inset -3px -2px 10px rgba(255, 255, 255, 0.5),
+    inset 2px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ig {
+  background: linear-gradient(138.58deg, #e318db 10.22%, #f90000 93.88%);
+  box-shadow: inset -3px -2px 10px rgba(255, 255, 255, 0.5),
+    inset 2px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.fotter-ends {
+  size: 16px;
+  padding: 30px;
+}
+
+.date {
+  width: 1.4rem;
+}
+
+.fotter-sc {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.time {
+  padding: 0.3rem 1rem;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.social {
+  margin-top: 300px;
+}
+
+.br {
+  background-image: url(./image/Vectors.png);
+  height: 2px;
+  width: 95%;
+  margin: 57px auto;
+}
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
+  }
+
+  .hiro {
+    height: 561px;
+  }
+
+  .hiro-text {
+    padding: 1rem;
+    width: 100%;
+    /* left: 220px; */
+    left: 0rem;
+    font-size: 30px;
+  }
+
+  .hiro-text2 {
+    color: white;
+    position: absolute;
+    width: 100%;
+    height: 58px;
+    left: 15px;
+    top: 322px;
+
+    /* Heading 2 */
+
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 120%;
+  }
+
+  .event-date {
+    width: 100%;
+    margin-right: 0;
+    border-radius: 0px;
+    margin-left: 0;
+    margin: 0;
+  }
+
+  .dt {
+    width: 100%;
+  }
+
+  .form-select {
+    padding: 0.5rem 2rem;
+    width: 60%;
+    overflow: scroll;
+  }
+
+  .mini-content,
+  .contents {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .footer-sc {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .all-link {
+    margin: 30px 0;
+  }
+
+  .booking-flex {
+    flex-direction: column;
+  }
+
+  .emails {
+    width: 90%;
+    height: 44px;
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 10px;
+  }
+  .ev-bg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .event-date {
+    width: 100%;
+    border-radius: 0px;
+    margin-right: 0;
+  }
+
+  .social {
+    margin-top: 100px;
+  }
+
+  .footer-sc img {
+    width: 70%;
+  }
+
+  .nav-img {
+    width: 100%;
+  }
+
+  .all-link {
+    text-align: center;
+  }
+
+  .booking-form {
+    margin-top: 20px;
+  }
+
+  .booking-form input {
+    padding: 1rem;
+    width: 90%;
+    margin-right: 0;
+  }
+
+  .num-input input {
+    margin-right: 0;
+  }
+
+  .time {
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  img {
+    width: 100%;
+  }
+  .hiro-text {
+    padding: 1rem;
+    width: 100%;
+    /* left: 220px; */
+    left: 0rem;
+    font-size: 40px;
+  }
+
+  .hiro-text2 {
+    padding: 1rem;
+    width: 100%;
+    height: 48px;
+    /* left: 55px;
+    top: 330px; */
+    top: 20rem;
+    left: 0;
+  }
+
+  .dt {
+    width: 100%;
+  }
+
+  .form-select {
+    width: 20%;
+  }
+
+  .mini-content,
+  .contents {
+    margin-bottom: 30px;
+  }
+
+  .footer-sc {
+    flex-direction: column;
+  }
+
+  .all-link {
+    margin: 50px 0;
+  }
+
+  .all-link a {
+    margin: 0 20px;
+  }
+
+  .emails {
+    width: 100%;
+    height: 44px;
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 10px;
+  }
+  .ev-bg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .event-date {
+    width: 100%;
+    border-radius: 0px;
+    margin-right: 0;
+  }
+
+  .social {
+    margin-top: 100px;
+  }
+
+  .footer-sc img {
+    width: 40%;
+  }
+
+  .nav-img {
+    width: 100%;
+  }
+
+  .booking-form {
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  .num-input input {
+    margin-right: 0;
+  }
+
+  .time {
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+
+  .hiro {
+    width: 100%;
+  }
+
+  .phone-input input {
+    padding: 1rem;
+    width: 100%;
+    height: 44px;
+    border: none;
+    outline: none;
+    border: 1px solid #ffffff;
+    background: transparent;
+  }
+
+  .num-input input {
+    height: 44px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    background: transparent;
+  }
+
+  .booking-form input {
+    padding: 1rem;
+    width: 100%;
+    height: 44px;
+    border: none;
+    outline: none;
+    border: 1px solid #ffffff;
+    background: transparent;
+  }
+
+  bi {
+    margin: 20px 20px;
+  }
+
+  .mini-btn {
+    margin-top: 20px;
+  }
+
+  .booking-flex {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- NAvbar-->
+    <nav class="navbar fixed-top bg-black">
+      <div class="container flexs">
+        <div class="dropdown">
+          <i
+            class="bi bi-person-circle"
+            class="dropdown-toggle"
+            data-bs-toggle="dropdown"
+          ></i>
+          <ul class="dropdown-menu bg-black text-bg-light">
+            <li>
+              <a class="dropdown-item-text text-light" href="#">LOG IN</a>
+            </li>
+            <li>
+              <a class="dropdown-item-text text-light my-3" href="#">SIGN UP</a>
+            </li>
+            <li>
+              <a class="dropdown-item-text text-light" href="#">LOG OUT</a>
+            </li>
+          </ul>
+        </div>
+        <a href="">
+          <img src="./image/Logo White.png" alt="" class="nav-img" />
+        </a>
+        <div class="dropdown">
+          <i
+            class="bi bi-list"
+            class="dropdown-toggle"
+            data-bs-toggle="dropdown"
+          ></i>
+          <ul class="dropdown-menu bg-black menus">
+            <li>
+              <a
+                class="dropdown-item-text text-light"
+                href="../booking/index.html"
+                >BOOKING</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item-text my-3 text-light"
+                href="../gallery/index.html"
+                >LINK 1</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item-text text-light"
+                href="../news-akun/index.html"
+                >LINK 2</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item-text my-3 text-light"
+                href="../contact/index.html"
+                >LINK 3</a
+              >
+            </li>
+            <li>
+              <a
+                class="dropdown-item-text text-light"
+                href="../homepage/index.html"
+                >LINK 4</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end Navbar-->
+
+    <!-- Hiro -->
+    <div class="hiro position-relative">
+      <div>
+        <div>
+          <h1 class="hiro-text">BOOKING</h1>
+        </div>
+        <div>
+          <h3 class="hiro-text2">Esports Hub Indonesia</h3>
+        </div>
+      </div>
+    </div>
+    <!-- End Hiro -->
+
+    <!-- Mini Area-->
+    <div class="mini py-5">
+      <div class="container container-xxl">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 col-sm-12">
+            <div
+              id="carouselExampleRide"
+              class="carousel slide"
+              data-bs-ride="true"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./image/mini.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/cafe.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./image/stream.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleRide"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 mini-content">
+            <h3 class="mb-3">Esport Mini Arena</h3>
+            <p>
+              Esports Mini Arena merupakan arena space yang dapat digunakan
+              untuk berbagai kegiatan Esports mulai dari turnamen, nobar, sampai
+              community gathering. Setup ruangan dapat disesuaikan dengan
+              kebutuhan acara yang akan dilaksanakan.
+            </p>
+            <button class="mini-btn">BOOKING</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Mini Area-->
+
+    <!-- Event -->
+    <div class="event">
+      <div class="container ev-bg">
+        <div class="row">
+          <div class="col-md-8 text-light p-3 event-form">
+            <h5 class="form-label evName">Event Name</h5>
+            <input type="email" class="emails" />
+            <div class="mt-5 dt">
+              <h5 class="mb-3">Select Date</h5>
+              <div class="d-flex">
+                <select class="form-select" id="day" name="day">
+                  <label>Select Date</label>
+                  <option value="">day</option>
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  <option value="31">31</option>
+                </select>
+
+                <select class="form-select mx-3" id="month" name="month">
+                  <option value="">month</option>
+                  <option value="01">January</option>
+                  <option value="02">February</option>
+                  <option value="03">March</option>
+                  <option value="04">April</option>
+                  <option value="05">May</option>
+                  <option value="06">June</option>
+                  <option value="07">July</option>
+                  <option value="08">August</option>
+                  <option value="09">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12">December</option>
+                </select>
+
+                <select
+                  class="form-select"
+                  id="year"
+                  name="year"
+                  placeholder="Tahun"
+                >
+                  <option value="">year</option>
+                  <option value="2000">2000</option>
+                  <option value="2001">2001</option>
+                  <option value="2002">2002</option>
+                  <option value="2003">2003</option>
+                  <option value="2004">2004</option>
+                  <option value="2005">2005</option>
+                  <option value="2006">2006</option>
+                  <option value="2007">2007</option>
+                  <option value="2008">2008</option>
+                  <option value="2009">2009</option>
+                  <option value="2010">2010</option>
+                  <option value="2011">2011</option>
+                  <option value="2012">2012</option>
+                  <option value="2013">2013</option>
+                  <option value="2014">2014</option>
+                  <option value="2015">2015</option>
+                  <option value="2016">2016</option>
+                  <option value="2017">2017</option>
+                  <option value="2018">2018</option>
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                  <option value="2023">2023</option>
+                </select>
+              </div>
+              <form action="" class="mt-5">
+                <h5 for="appt">Select time</h5>
+                <p class="mt-3">
+                  *Esport Hub Indonesia di buka pada pukul 10.00 - 21.00 WIB
+                </p>
+                <input type="time" id="appt" name="appt" class="time" />
+                <input type="time" id="appt" name="appt" class="time" />
+              </form>
+            </div>
+            <hr class="hr" />
+            <div
+              class="d-flex justify-content-between align-items-center booking-flex"
+            >
+              <form action="/action_page.php" class="booking-form">
+                <h5>Booking Name</h5>
+                <input type="teks" />
+              </form>
+              <form action="/action_page.php" class="booking-form">
+                <h5>Booking Needs</h5>
+                <input type="teks" placeholder="Tulis keperluan singkat" />
+              </form>
+            </div>
+            <div class="d-flex justify-content- booking-flex">
+              <form action="/action_page.php" class="num-input">
+                <h5>Member</h5>
+                <p>*Jumlah orang (Max. 100)</p>
+                <input
+                  type="number"
+                  id="quantity"
+                  name="quantity"
+                  min="1"
+                  max="100"
+                  placeholder="1"
+                />
+              </form>
+              <form action="/action_page.php" class="phone-input">
+                <h5>Phone Member</h5>
+                <p>*Kepentingan informasi lebih lanjut</p>
+                <input type="number" />
+              </form>
+            </div>
+          </div>
+
+          <div class="event-date col-md-4 bg-black text-light p-5">
+            <h2>Booking Detail</h2>
+            <hr />
+            <p>Atas Nama</p>
+            <h4>Username</h4>
+            <br />
+
+            <p>Bokking Room</p>
+            <h4>Mini Arena Room</h4>
+            <br />
+            <span>
+              <p>Date and Time</p>
+              <h4>
+                <img src="./image/date.png" alt="" class="me-2 date" />
+                14 - 15 WIB, 18 Jan 2023
+              </h4>
+            </span>
+            <br />
+            <p>Booking Needs</p>
+            <h4>Nobar Turnamen</h4>
+            <hr />
+            <p>Total Amount</p>
+            <h4>Rp. 200.000</h4>
+            <button class="boking">Booking First</button>
+            <br />
+            <button class="pay">Proceed to Pay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Event -->
+    <div class="br"></div>
+    <!-- VIP -->
+    <div class="vip py-5">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 col-sm-12 mini-content">
+            <h3 class="mb-3">VIP Room</h3>
+            <p>
+              VIP Room menawarkan pengalaman bermain game dengan perlengkapan
+              berkualitas tinggi, mulai dari PC,monitor, keyboard, mouse, sofa,
+              PS5, dan dilengkapi dengan high speed internet connection untuk
+              online play dan live-stream. Dengan dekorasi fasilitas first class
+              VIP Room dibuat khusus untuk gamers di Jakarta yang membutuhkan
+              refreshing di tengah kesibukan pekerjaan
+            </p>
+            <button class="mini-btn">Booking</button>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div
+              id="carouselExampleAutoplaying"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./image/vip.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/mini.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/cafe.png" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End VIP-->
+    <div class="br"></div>
+    <!-- Stremer Room-->
+    <div class="stremer py-5">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 col-sm-12">
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./image/stream.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/cafe.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/mini.png" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExample"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 mini-content">
+            <h3 class="mb-3">Streamer Room</h3>
+            <p>
+              Streamers Room adalah ruangan khusus untuk aktivitas live
+              streaming game yang saat ini sedang berkembang di kalangan gamers
+              muda baik pro maupun pemula. Ruangan ini memiliki set design serta
+              perlengkapan berbeda yang akan lebih mendukung kegiatan live
+              streaming. Esports Hub Jakarta akan bekerjasama dengan beberapa
+              talent management untuk membuat akademi streamers.
+            </p>
+            <button class="mini-btn">Booking</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Stremer Room-->
+    <div class="br"></div>
+    <!-- Cyber Cafe -->
+
+    <div class="cafe py-5">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 col-sm-12 mini-content">
+            <h3 class="mb-3">Cyber Cafe</h3>
+            <p>
+              Cyber Cafe atau yang dahulu dikenal dengan istilah “warnet” adalah
+              fasilitas dimana pengunjung dapat menggunakan PC yang telah
+              disediakan untuk kepentingan bermain game, menonton, ataupun
+              sekedar browsing internet. Dilengkapi dengan high end PC specs dan
+              high speed internet akan memanjakan para gamers sehingga
+              memberikan pengalaman yang terbaik. Cyber Cafe dapat dimanfaatkan
+              sebagai basecamp berkumpulnya para Gamers
+            </p>
+            <button class="mini-btn">Booking</button>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div
+              id="carouselExampleControlsNoTouching"
+              class="carousel slide"
+              data-bs-touch="false"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./image/cafe.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/res.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/mini.png" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControlsNoTouching"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Cyber Cafe -->
+    <div class="br"></div>
+    <!-- Restaurant -->
+
+    <div class="mini py-5">
+      <div class="container container-xxl">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 col-sm-12">
+            <div
+              id="carouselExampleInterval"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="./image/cafe.png" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img
+                    src="./image/stream.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/cafe.png" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 mini-content">
+            <h3 class="mb-3">Restaurant</h3>
+            <p>
+              Restaurant Esports Hub Indonesia menawarkan berbagai opsi makanan
+              yang dinikmati masyarakat, Memiliki kapasitas mencapai 150 pax
+              dimana area Restaurant menjadi satu dengan area Esports Mini
+              Arena. Restaurant Esports Hub Indonesia memiliki target untuk
+              melayani pengunjung Esports Hub Indonesia, pengunjung M-ten, serta
+              para pekerja kantor di M-ten dan Gedung Cyber 1.
+            </p>
+            <button class="mini-btn">BOOKING</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Restaurant -->
+
+    <!-- Social -->
+    <div class="social bg-black text-light py-3">
+      <div
+        class="container d-flex justify-content-between align-items-center footer-sc"
+      >
+        <img src="./image/Logo White.png" alt="" />
+        <div class="all-link">
+          <a href="">LINK 1</a>
+          <a href="">LINK 2</a>
+          <a href="">LINK 3</a>
+          <a href="">BOOKING</a>
+          <a href="">LINK 4</a>
+        </div>
+        <div>
+          <i class="bi bi-facebook fb"></i>
+          <i class="bi bi-twitter tw"></i>
+          <i class="bi bi-youtube yt"></i>
+          <i class="bi bi-instagram ig"></i>
+        </div>
+      </div>
+      <hr />
+      <p class="text-center fotter-ends">© 2023 Game. All Right Reserved.</p>
+    </div>
+
+    <!-- End Social -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
